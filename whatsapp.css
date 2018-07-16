@@ -1,0 +1,400 @@
+.container-fluid{
+padding-top:2vh;
+      }
+.dropdown-bar{
+color: white;
+padding-bottom: 4vw;
+font-size: 40vw;	
+}
+.card-header{
+height: 300px;
+}
+.head{
+font-size: 40px;
+font-weight: bold;
+color: white;
+}
+.searchicon{
+color: white;
+font-size: 30px;
+padding-top: 15px;
+text-align: right;
+}
+.ellipsis{
+color:white;
+font-size: 30px;
+padding-top: 15px;
+padding-left: 20px;
+}
+.card .card-body{
+height: 110px;
+margin-top:-10px;"
+}
+.card .card-body .clientimage{
+height:75px; 
+border-radius: 50%;
+margin-top: 2px;
+}
+.card .card-body .name {
+margin-top: -10px;
+font-size: 27px;
+font-weight: bolder;
+margin-top: -7px;
+}
+.card .card-body .p-2 {
+margin-left:35px;
+margin-bottom: 20px;
+}
+.card .card-body .txtimg {
+height: 25px;
+}
+.card .card-body .txtimgtick {
+height: 35px;
+}
+.card .card-body .time {
+font-size: 15px;
+color:#99A3A4;
+padding-left:40px;
+}
+.status{
+cursor: pointer;
+position: fixed;
+bottom: 10px;
+right: 35px;
+margin:0;
+padding: 14px 22px;
+}
+.status .statuses{
+height: 60px;
+}
+.hie{
+padding-top:80px;
+}
+.profcard{
+margin-top:60px;
+border-width: 2px;
+}
+.profname{
+font-size:30px;
+}
+.infocard{
+height: 200px; 
+padding-top: 20px;
+}
+.ownimage{
+border-radius: 50%;
+height:37vh;
+box-shadow: -3px 4px 16px -2px;
+}
+.cam{
+position: absolute;
+cursor: pointer;
+height: 70px;
+width: 70px;
+border-radius: 50%;
+background-color: #128C7E;
+left: 53%;
+margin-top: -60px;
+}
+.camicon{
+position: relative;
+color:white;
+font-size: 35px;
+left: 25%;
+top:25%;
+}
+.penicon{
+padding-top: 8px;
+font-size: 20px;
+color:#128C7E;
+}
+.note{
+padding-top: 20px;
+padding-left:25px;
+font-size: 20px;
+}
+.info{
+color: #25D366;
+padding-left:5px;
+font-size:25px; 
+}
+.infor{
+padding-left:5px;
+font-size:20px;	
+}
+.card .card-body .newmess {
+border-spacing: 40px;
+background-color: #4ef84e;
+color:white;
+border-radius: 50%;
+font-size: 20px;
+height: 30px; 
+width: 35px;
+padding-left:10px;
+margin-left:47px;
+}
+.mes{
+font-size: 20px;
+}
+.mess{
+font-size: 10px;
+}
+@media only screen and (min-width: 425px) and (max-width: 725px) {
+.head{
+font-size: 35px;
+font-weight: bold;
+color: white;
+}
+.searchicon{
+color: white;
+font-size: 22px;
+text-align: right;
+}
+.ellipsis{
+color:white;
+font-size: 22px;
+padding-top: 15px;
+padding-left: 20px;
+}
+.card .card-body{
+height:95px;
+margin-top:-20px;
+}
+.card .card-body .name {
+font-size: 22px;
+}
+.card .card-body .clientimage{
+height:65px; 
+border-radius: 50%;
+}
+.card .card-body .p-2 {
+margin-left:15px;
+}.card .card-body .p-2a {
+margin-left:-5px;
+}
+.card .card-body .txtimg {
+height: 23px;
+}
+.card .card-body .txtimgtick {
+height: 33px;
+}
+.card .card-body .time {
+font-size: 12px;
+color:#99A3A4;
+padding-left:40px;
+}
+.status{
+cursor: pointer;
+position: fixed;
+bottom: 10px;
+right: 30px;
+margin:0;
+padding: 14px 22px;
+}
+.status .statuses{
+height: 55px;
+}
+.card .card-body .newmess {
+border-spacing: 40px;
+background-color: #4ef84e;
+color:white;
+border-radius: 50%;
+font-size: 15px;
+height: 25px; 
+width: 30px;
+padding-left:10px;
+margin-left:45px;
+}
+.hie{
+padding-top:50px;
+}
+.profcard{
+margin-top:40px;
+border-width: 2px;
+}
+.profname{
+font-size:25px;
+}
+.infocard{
+height: 150px; 
+padding-top: 20px;
+}
+.ownimage{
+border-radius: 50%;
+height:33vh;
+box-shadow: -3px 4px 16px -2px;
+}
+.cam{
+position: absolute;
+cursor: pointer;
+height: 55px;
+width: 55px;
+border-radius: 50%;
+background-color: #128C7E;
+left: 57%;
+margin-top: -50px;
+}
+.camicon{
+position: relative;
+color:white;
+font-size: 25px;
+left: 28%;
+top:25%;
+}
+.penicon{
+padding-top: 12px;
+font-size: 15px;
+color:#128C7E;
+}
+.note{
+padding-top: 20px;
+padding-left:25px;
+font-size: 17px;
+}
+.info{
+color: #25D366;
+padding-left:10px;
+font-size:22px; 
+}
+.infor{
+padding-left:10px;
+font-size:18px;	
+}
+}
+@media only screen and (max-width: 425px) 
+{
+.head{
+font-size: 30px;
+font-weight: bold;
+color: white;
+}
+.searchicon{
+color: white;
+font-size: 21px;
+padding-top: 17px;
+text-align: right;
+}
+.ellipsis{
+color:white;
+font-size: 21px;
+padding-top: 17px;
+padding-left: 5px;
+}
+.card .card-body{
+height: 90px;
+margin-top:-20px;
+}
+.card .card-body .name {
+font-size: 20px;
+font-weight: bolder;
+margin-top: -5px;
+}
+.card .card-body .clientimage{
+height:55px; 
+border-radius: 50%;
+margin-top: 7px;
+}
+.card .card-body .p-2 {
+margin-left:3px;
+}
+.card .card-body .p-2a {
+margin-left:-15px;
+}
+.card .card-body .txtimg {
+margin-top: 4px;
+height: 15px;
+}
+.card .card-body .txtimgtick {
+margin-top: 3px;
+height: 25px;
+}
+.card .card-body .time {
+font-size: 10px;
+color:#99A3A4;
+padding-left:40px;
+}
+.status{
+cursor: pointer;
+color: pointer;
+position: fixed;
+bottom: 10px;
+right: 20px;
+margin:0;
+padding: 14px 22px;
+}
+.status .statuses{
+height: 50px;
+}
+.card .card-body .newmess {
+border-spacing: 30px;
+background-color: #4ef84e;
+color:white;
+border-radius: 50%;
+font-size: 13px;
+height: 25px; 
+width: 27px;
+padding-left:10px;
+padding-top: 3px;
+margin-left:40px;
+}
+.hie{
+padding-top:30px;
+}
+.profcard{
+margin-top:30px;
+border-width: 2px;
+}
+.profname{
+font-size:20px;
+margin-top: 5px;
+}
+.infocard{
+height: 150px; 
+padding-top: 20px;
+}
+.ownimage{
+border-radius: 50%;
+height:33vh;
+box-shadow: -3px 4px 16px -2px;
+}
+.cam{
+position: absolute;
+cursor: pointer;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+background-color: #128C7E;
+left: 60%;
+margin-top: -45px;
+}
+.camicon{
+position: relative;
+color:white;
+font-size: 20px;
+left: 28%;
+top:27%;
+}
+.penicon{
+padding-top: 12px;
+font-size: 15px;
+color:#128C7E;
+}
+.note{
+padding-top: 20px;
+padding-left:15px;
+font-size: 15px;
+}
+.info{
+color: #25D366;
+padding-left:2px;
+font-size:19px; 
+}
+.infor{
+padding-left:2px;
+font-size:15px;	
+}
+.mes{
+font-size: 16px;
+}
+}
+

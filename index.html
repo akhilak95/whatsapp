@@ -1,0 +1,470 @@
+<html>
+ <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>WhatsApp Messenger</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="whatsapp.css">
+    <link rel="stylesheet" href="text.css">
+    <link rel="stylesheet" href="tab.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css" integrity="sha384-TbilV5Lbhlwdyc4RuIV/JhD8NR+BfMrvz4BL5QFa2we1hQu6wvREr3v6XSRfCTRp" crossorigin="anonymous">
+ </head>
+<body>
+     <nav class="navbars  navbar-custom">
+      <div class ="container-fluid">
+        <div class="row">
+          <div class =" col-8 col-sm-10 col-md-10 col-lg-10">
+             <div class="navbar-brands head">WhatsApp</div>
+          </div>
+          <div class ="col-2 col-sm-1 col-md-1 col-lg-1"style="">
+            <div class="searchicon " style="">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class =" col-2 col-sm-1 col-md-1 col-lg-1" style="">
+                <i class="fas fa-ellipsis-v  ellipsis href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false""></i>
+                <div class="dropdown-menu dropdown-menu-right  " aria-labelledby="bd-versions">
+                    <a class="dropdown-item" href="profile.html">Profile</a>
+                    <a class="dropdown-item" href="#">New group</a>
+                    <a class="dropdown-item" href="#">Archieved</a>
+                    <a class="dropdown-item" href="#">Starred</a>
+                    <a class="dropdown-item" href="#">Settings</a>
+                    <a class="dropdown-item" href="#">Logout </a>
+                </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="nav nav-tabs navi" id="nav-tab" role="tablist" style="background-color: #128C7E" > 
+       <a class=" nav-item nav-link tab navis active" id="nav-home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="nav-home" aria-selected="true" style="color:white;border-top: none;border-left:none;border-right: none;border-bottom-width: 5px;;background-color: #128C7E;text-align: center;"><div class="navisc">Chat</div></a>
+      <a class="nav-item nav-link d-flex navis " id="nav-chats-tab" data-toggle="tab" href="#chats" role="tab" aria-controls="nav-profile" aria-selected="false"style="background-color: #128C7E;color:white;border-top: none;border-left:none;border-right: none;border-bottom-width: 5px;text-align: center;"><span class= "navisc nak" >Chats </span><span class ="navisb"> </span></a>
+      <a class="nav-item nav-link  navis"  id="nav-profile-tab  " data-toggle="tab" href="#profile" role="tab" aria-controls="nav-contact" aria-selected="false"style="background-color: #128C7E; text-align: center;color: white;border-top: none;border-left:none;border-right: none;border-bottom-width: 5px;"><div class ="navisc">Profile</div></a>
+      <a class="nav-item nav-link  navisa" id="nav-camera-tab" data-toggle="tab" href="#nav-camera" role="tab" aria-controls="nav-camera" aria-selected="false"style="background-color: #128C7E;  text-align: center;color: white;border-top: none;border-left:none;border-right: none;border-bottom-width: 5px;"><div class="navisc">Individual</div></a>
+    </div>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active " id="home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <div class="card " style="">
+                   <div class="card-body" >
+                        <div class="d-flex bd-highlight mb-3">
+                            <div class="p-2a bd-highlight"><img src="funny.jpg "class="img-fluid clientimage" ></div>
+                                 <div class="p-2 bd-highlight"><div class="name" >Walter</div>
+                                     <div class= "d-flex text-muted mes " > <img src="bluetick.png" class="img-fluid text-muted txtimg"> <span class="" style="font-style:bold;padding-left:2px">Hllo</span></div>
+                                   </div>
+                                       <div class="ml-auto p-2 bd-highlight"><div class="time">16:02</div></div>
+                         </div>
+                    </div>
+             </div>
+             <div class="card ">
+                  <div class="card-body" >
+                         <div class="d-flex bd-highlight mb-3">
+                              <div class="p-2a bd-highlight"><img src="panda.jpg "class="img-fluid clientimage" ></div>
+                                   <div class="p-2 bd-highlight"><div class="name" >Pinkman</div>
+                                     <div class= "d-flex text-muted mes" > <img src="tick.png" class="img-fluid text-muted txtimgtick"> <p style="font-style:bold;padding-left:2px">Hllo</p></div></div>
+                                        <div class="ml-auto p-2 bd-highlight"><div class="time">08:41</div></div>
+                          </div>
+                  </div>
+            </div>
+            <div class="card ">
+               <div class="card-body" >
+                   <div class="d-flex bd-highlight mb-3">
+                     <div class="p-2a bd-highlight"><img src="quote.jpeg "class="img-fluid clientimage" ></div>
+                        <div class="p-2 bd-highlight"><div class="name" >Tuco</div>
+                          <div class= "d-flex text-muted mes" > <img src="tick.png" class="img-fluid txtimgtick"> <img src="camera.png" class="img-fluid " style="height: 18;margin-top: 1px" > <p style="font-style:bold;padding-left:2px">Photo</p></div></div>
+                             <div class="ml-auto p-2 bd-highlight"><div class="time">00:56</div></div>
+                    </div>
+                </div>
+           </div>
+          <div class="card ">
+             <div class="card-body" >
+                 <div class="d-flex bd-highlight mb-3">
+                     <div class="p-2a bd-highlight"><img src="cat.jpg "class="img-fluid clientimage" ></div>
+                        <div class="p-2 bd-highlight"><div class="name" >Stark</div>
+                          <div class= "d-flex text-muted mes" > <p style="font-style:bold;">JonSnow:</p> <p style="font-style:bold;padding-left:2px">Thankyou</p></div></div>
+                            <div class="ml-auto p-2 bd-highlight"><div class="time">00:02</div></div>
+                 </div>
+             </div>
+          </div>
+          <div class="card ">
+              <div class="card-body" >
+                 <div class="d-flex bd-highlight mb-3">
+                      <div class="p-2a bd-highlight"><img src="ss.jpg "class="img-fluid clientimage" ></div>
+                         <div class="p-2 bd-highlight"><div class="name" >Ryuk</div>
+                           <div class= "d-flex text-muted mes" >  <img src="singletick.png" class="img-fluid singtick" style="height: 27" >  <img src="video.png" class="img-fluid videoicon" style="height: 15;margin-top: 3px" ><p style="font-style:bold;padding-left:2px">Video</p></div></div>
+                              <div class="ml-auto p-2 bd-highlight"><div class="time">YESTERDAY</div></div>
+                  </div>
+              </div>
+          </div>
+          <div class="card ">
+              <div class="card-body" >
+                  <div class="d-flex bd-highlight mb-3">
+                     <div class="p-2a bd-highlight"><img src="none.jpeg "class="img-fluid clientimage" ></div>
+                        <div class="p-2 bd-highlight"><div class="name" style="margin-left:-6px" >Sasuke</div>
+                          <div class= "d-flex text-muted mes" >  <p style="font-style:bold;margin-left:-6px">Hllo</p></div></div>
+                              <div class="ml-auto p-2 bd-highlight"><div class="time">YESTERDAY</div></div>
+                  </div>
+              </div>
+          </div>
+          <div class="card ">
+              <div class="card-body" >
+                   <div class="d-flex bd-highlight mb-3">
+                       <div class="p-2a bd-highlight"><img src="uu.jpg "class="img-fluid clientimage" ></div>
+                          <div class="p-2 bd-highlight"><div class="name" >Misa</div>
+                              <div class= "d-flex text-muted mes" > <img src="bluetick.png" class="img-fluid txtimg"> <p style="font-style:bold;padding-left:2px"> <img src="camera.png" class="img-fluid" style="height: 18;margin-top: 1px" > </p><p style="font-style:bold;padding-left:2px">Photo</p></div></div>
+                                    <div class="ml-auto p-2 bd-highlight"><div class="time">YESTERDAY</div></div>
+                   </div>
+              </div>
+          </div>
+          <div class="card ">
+              <div class="card-body" >
+                  <div class="d-flex bd-highlight mb-3">
+                       <div class="p-2a bd-highlight"><img src="well.jpg "class="img-fluid clientimage" ></div>
+                          <div class="p-2 bd-highlight"><div class="name" >Harvey</div>
+                                <div class= "d-flex text-muted mes " >  <img src="attachment.png" class="img-fluid" style="height: 22" > <p style="font-style:bold;padding-left:2px">Attachment</p></div></div>
+                            <div class="ml-auto p-2 bd-highlight"><div class="time">10/07/18</div></div>
+                  </div>
+              </div>
+          </div>
+          <div class="card ">
+              <div class="card-body" >
+                 <div class="d-flex bd-highlight mb-3">
+                    <div class="p-2a bd-highlight"><img src="re.jpg "class="img-fluid clientimage" ></div>
+                         <div class="p-2 bd-highlight"><div class="name" >Ray</div>
+                            <div class= "d-flex text-muted mess" ><img src="nope.png" class="img-fluid" style="height: 15" ><p style="font-style:bold;padding-left:0px">This message was deleted</p></div></div>
+                                 <div class="ml-auto p-2 bd-highlight"><div class="time">09/07/18</div></div>
+                  </div>
+              </div>
+           </div>
+           <div class="card ">
+                <div class="card-body" >
+                   <div class="d-flex bd-highlight mb-3">
+                         <div class="p-2a bd-highlight"><img src="cae.jpg "class="img-fluid clientimage" ></div>
+                              <div class="p-2 bd-highlight"><div class="name" >Monica</div>
+                                  <div class= "d-flex text-muted mes" >  <img src="singletick.png" class="img-fluid" style="height: 30" ><p style="font-style:bold;padding-left:1px">Hllo</p></div></div>
+                                        <div class="ml-auto p-2 bd-highlight"><div class="time">08/07/18</div></div>
+                    </div>
+                </div>
+           </div>
+           <div class="card ">
+               <div class="card-body" style="height:180px" >
+                    <div class="d-flex bd-highlight mb-3">
+                         <div class="p-2a bd-highlight"><img src="moo.jpg "class="img-fluid clientimage" ></div>
+                              <div class="p-2 bd-highlight"><div class="name" >Robin</div>
+                                  <div class= "d-flex text-muted mes" >  <img src="camera.png" class="img-fluid" style="height: 18;margin-top: 1px" > <p style="font-style:bold;padding-left:2px">Photo</p></div></div>
+                                        <div class="ml-auto p-2 bd-highlight"><div class="time">07/07/18</div></div>
+                     </div>
+                 </div>
+            </div>
+            <div class= "float-right status"  ><img src="statuses.jpeg" class="img-fluid statuses" ></div>   
+     </div>
+    <div class="tab-pane fade " id="chats" role="tabpanel" aria-labelledby="nav-chats-tab">
+      <div class="card "style="">
+              <div class="card-body" >
+                  <div class="d-flex bd-highlight mb-3">
+                       <div class="p-2a bd-highlight"><img src="funny.jpg "class="img-fluid clientimage" ></div>
+                          <div class="p-2 bd-highlight"><div class="name" >Walter</div>
+                             <div class= "d-flex " >  <p style="font-style:bold;font-size:20px;padding-left:2px;font-weight: bold">Hllo</p></div></div>
+                                  <div class="ml-auto p-2 bd-highlight"><div class="time" style="margin-left: -13px ">JustNow</div><div class="newmess"> 2</div></div>
+                   </div>
+               </div>
+          </div>
+      <div class="card ">
+          <div class="card-body" >
+              <div class="d-flex bd-highlight mb-3">
+                   <div class="p-2a bd-highlight"><img src="panda.jpg "class="img-fluid clientimage" ></div>
+                       <div class="p-2 bd-highlight"><div class="name" >Pinkman</div>
+                            <div class= "d-flex " >  <p style="font-style:bold;font-size:20px;padding-left:2px;font-weight: bold">Hllo</p></div></div>
+                               <div class="ml-auto p-2 bd-highlight"><div class="time">17:35</div><div class="newmess"> 3</div></div>
+               </div>
+          </div>
+      </div>
+      <div class="card ">
+           <div class="card-body" >
+               <div class="d-flex bd-highlight mb-3">
+                     <div class="p-2a bd-highlight"><img src="quote.jpeg "class="img-fluid clientimage" ></div>
+                        <div class="p-2 bd-highlight"><div class="name" >Tuco</div>
+                            <div class= "d-flex " ><img src="camera.png" class="img-fluid" style="height: 22" > <p style="font-style:bold;font-size:20px;padding-left:2px;font-weight: bold">Photo</p></div></div>
+                                <div class="ml-auto p-2 bd-highlight"><div class="time">15:06</div><div class="newmess"> 1</div></div>
+                 </div>
+           </div>
+      </div>
+      <div class="card ">
+         <div class="card-body" >
+             <div class="d-flex bd-highlight mb-3">
+                  <div class="p-2a bd-highlight"><img src="cat.jpg "class="img-fluid clientimage" ></div>
+                     <div class="p-2 bd-highlight"><div class="name" style="">FRIENDS</div>
+                           <div class= "d-flex " > <p style="font-style:bold;font-size:20px;font-weight: bold;">Joey:</p> <p style="font-style:bold;font-size:20px;padding-left:2px;font-weight: bold">Hmm</p></div></div>
+                                 <div class="ml-auto p-2 bd-highlight"><div class="time">10:02</div><div class="newmess"> 4</div></div>
+             </div>
+          </div>
+      </div>
+      <div class="card ">
+          <div class="card-body" >
+               <div class="d-flex bd-highlight mb-3">
+                  <div class="p-2a bd-highlight"><img src="ss.jpg "class="img-fluid clientimage" ></div>
+                     <div class="p-2 bd-highlight"><div class="name" >Ryuk</div>
+                          <div class= "d-flex " > <img src="video.png" class="img-fluid" style="height: 18;margin-top: 3px;" ><p style="font-style:bold;font-size:20px;padding-left:2px;font-weight: bold">Video</p></div></div>
+                                <div class="ml-auto p-2 bd-highlight"><div class="time">08:02</div><div class="newmess"> 2</div></div>
+                </div>
+           </div>
+      </div>
+      <div class="card ">
+         <div class="card-body" >
+             <div class="d-flex bd-highlight mb-3">
+                <div class="p-2a bd-highlight"><img src="none.jpeg "class="img-fluid clientimage" ></div>
+                    <div class="p-2 bd-highlight"><div class="name" style="margin-left:-6px" >Sasuke</div>
+                         <div class= "d-flex " >  <p style="font-style:bold;font-size:20px;margin-left:-6px;font-weight: bold">Hllo</p></div></div>
+                             <div class="ml-auto p-2 bd-highlight"><div class="time">03:43</div><div class="newmess"> 5</div></div>
+              </div>
+          </div>
+      </div>
+      <div class="card ">
+          <div class="card-body" >
+              <div class="d-flex bd-highlight mb-3">
+                  <div class="p-2a bd-highlight"><img src="uu.jpg "class="img-fluid clientimage" ></div>
+                     <div class="p-2 bd-highlight"><div class="name" style="" >Misa</div>
+                         <div class= "d-flex text-muted" > <img src="bluetick.png" class="img-fluid txtimg"> <p style="font-style:bold;font-size:20px;padding-left:2px"> <img src="camera.png" class="img-fluid" style="height: 22" > </p><p style="font-style:bold;font-size:20px;padding-left:2px">Photo</p></div></div>
+                              <div class="ml-auto p-2 bd-highlight"><div class="time">YESTERDAY</div></div>
+              </div>
+          </div>
+      </div>
+      <div class="card ">
+          <div class="card-body" >
+              <div class="d-flex bd-highlight mb-3">
+                 <div class="p-2a bd-highlight"><img src="well.jpg "class="img-fluid clientimage" ></div>
+                    <div class="p-2 bd-highlight"><div class="name" >Harvey</div>
+                        <div class= "d-flex text-muted" >  <img src="attachment.png" class="img-fluid" style="height: 22" > <p style="font-style:bold;font-size:20px;padding-left:2px">Attachment</p></div></div>
+                                <div class="ml-auto p-2 bd-highlight"><div class="time">10/07/18</div></div>
+              </div>
+          </div>
+      </div>
+      <div class="card ">
+         <div class="card-body" >
+            <div class="d-flex bd-highlight mb-3">
+                <div class="p-2a bd-highlight"><img src="re.jpg "class="img-fluid clientimage" ></div>
+                    <div class="p-2 bd-highlight"><div class="name" >Rachel</div>
+                           <div class= "d-flex text-muted" ><img src="nope.png" class="img-fluid" style="height: 15" ><p style="font-style:bold;font-size:12px;padding-left:0px">This message was deleted</p></div></div>
+                               <div class="ml-auto p-2 bd-highlight"><div class="time">09/07/18</div></div>
+            </div>
+        </div>
+      </div>
+      <div class="card ">
+          <div class="card-body" >
+             <div class="d-flex bd-highlight mb-3">
+                 <div class="p-2a bd-highlight"><img src="cae.jpg "class="img-fluid clientimage" ></div>
+                    <div class="p-2 bd-highlight"><div class="name" >Monika</div>
+                       <div class= "d-flex text-muted" >  <img src="singletick.png" class="img-fluid" style="height: 30" ><p style="font-style:bold;font-size:20px;padding-left:2px">Hllo</p></div></div>
+                          <div class="ml-auto p-2 bd-highlight"><div class="time">08/07/18</div></div>
+              </div>
+          </div>
+      </div>
+      <div class="card ">
+        <div class="card-body" style="height:180px" >
+          <div class="d-flex bd-highlight mb-3">
+            <div class="p-2a bd-highlight"><img src="moo.jpg "class="img-fluid clientimage" ></div>
+               <div class="p-2 bd-highlight"><div class="name" >Robin</div>
+                  <div class= "d-flex text-muted" >  <img src="camera.png" class="img-fluid" style="height: 22" > <p style="font-style:bold;font-size:20px;padding-left:2px">Photo</p></div></div>
+                      <div class="ml-auto p-2 bd-highlight"><div class="time">07/07/18</div></div>
+          </div>
+        </div>
+      </div>
+      <div class= "float-right status"  ><img src="statuses.jpeg" class="img-fluid statuses" ></div>  
+    </div>
+    <div class="tab-pane fade   " id="profile" role="tabpanel" aria-labelledby="nav-profile-tab"  style="background-color:#F8F9F9 " >
+          <div class="" style="position:relative;">
+               <div class="hie" style=""><img src="profile.jpg" class=" mx-auto d-block ownimage"  ></div>
+                    <div class ="cam"><i class="fas fa-camera camicon"></i></div>
+          </div>
+          <div class="card profcard" style="">
+             <div class = "card-body profcardbody" style="height: 80px" >
+                <div class="d-flex">
+                     <div class="mr-auto p-2 profname" style="">~Akhil Chaudhary</div>
+                     <div class="p-2 "><i class="fas fa-pen penicon " > </i></div>
+                </div>
+              </div>
+          </div>
+          <div class ="text-muted note" style="">This is not your username or pin. This name will be visible to your Whatsapp contacts.</div>
+               <br><br><br>
+          <div class="card infocard " style=" ">
+                <div class="card-body ">
+                     <h5 class="card-title info" style=" " >About and phone number</h5>
+                        <p class="card-text infor" style=" ">Be yourself...</p>
+                        <hr>
+                        <p class="card-text infor" style=" ">+91 9990096965</p>
+                </div>
+          </div>
+                 <div class="" style="height: 40px;"></div>
+    </div>
+    <div class="tab-pane fade " id="nav-camera" role="tabpanel" aria-labelledby="nav-camera-tab"  style="background-color:#ECE5DD " >
+             <br>
+      <div class="d-flex  justify-content-start ">
+        <div class="card text1" style="border-radius: 15px;">
+          <div class = "card-body">
+              <div class ="txtsize ">Hey!&nbsp <span class="text-muted texttime" >10:11</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+          <div class="card text2 " style="background-color: #DCF8C6;border-radius: 15px;">
+            <div class = "card-body" >
+              <div class ="txtsize">Hi&nbsp  <span class="text-muted texttime" >10:15 <img src="b.png" class="img-fluid imgtext" >          </span>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="d-flex  justify-content-start">
+            <div class="card text3 " style="border-radius: 15px;">
+                <div class = "card-body">
+                    <div class ="txtsize" >What are you doing nowadays?&nbsp <span class="text-muted texttime" >10:17</span>
+                              </div>
+                </div>
+            </div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+           <div class="card text4 " style="background-color: #DCF8C6;border-radius: 15px;">
+               <div class = "card-body" >
+                   <div class ="txtsize">Bro,I have opted for&nbsp  <span class="text-muted texttime" >10:18 <img src="b.png" class="img-fluid imgtext" ></span></div>
+               </div>
+             </div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+           <div class="card text4a " style="background-color: #DCF8C6;border-radius: 15px;">
+              <div class = "card-body" >
+                 <div class ="txtsize">web development course&nbsp  <span class="text-muted texttime" >10:18 <img src="b.png" class="img-fluid imgtext" ></span></div>
+              </div>
+            </div>
+      </div>
+      <div class="d-flex  justify-content-start ">
+          <div class="card text5 " style="border-radius: 15px;">
+             <div class = "card-body">
+                  <div class ="txtsize">Nyc!&nbsp <span class="text-muted texttime" >10:19</span></div>
+              </div>
+          </div>
+      </div>
+      <div class="d-flex  justify-content-start">
+          <div class="card text6 " style="border-radius: 15px;">
+              <div class = "card-body">
+                   <div class ="txtsize">From Where?&nbsp <span class="text-muted texttime" >10:19</span></div>
+              </div>
+          </div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+           <div class="card  text7" style="background-color: #DCF8C6;border-radius: 15px;">
+              <div class = "card-body" >
+                   <div class ="txtsize">Edwisor&nbsp<span class="text-muted texttime" >10:20 <img src="b.png" class="img-fluid imgtext" ></span></div>
+              </div>
+            </div>
+      </div>
+      <div class="d-flex  justify-content-start ">
+          <div class="card text8 " style="border-radius: 15px;">
+              <div class = "card-body">
+                  <div class ="txtsize">Tell something more about it?&nbsp <span class="text-muted texttime" >10:21</span></div>
+              </div>
+          </div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+          <div class="card  text9" style="background-color: #DCF8C6;border-radius: 15px;">
+            <div class = "card-body" >
+                <div class ="txtsize">They first teach web skills &nbsp  <span class="text-muted texttime" >10:21 <img src="b.png"     class="img-fluid imgtext"></span></div>
+            </div>
+          </div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+          <div class="card  text9a" style="background-color: #DCF8C6;border-radius: 15px;">
+            <div class = "card-body" >
+                <div class ="txtsize">with industry insight.&nbsp <span class="text-muted texttime" >10:21 <img src="b.png" class="img-fluid imgtext"></span></div>
+            </div></div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+        <div class="card text10 " style="background-color: #DCF8C6;border-radius: 15px;">
+          <div class = "card-body" >
+            <div class ="txtsize">then make us to work  &nbsp  <span class="text-muted texttime" >10:21 <img src="b.png" class="img-fluid imgtext"></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+          <div class="card text10a " style="background-color: #DCF8C6;border-radius: 15px;">
+            <div class = "card-body" >
+                <div class ="txtsize">on live industry projects &nbsp <span class="text-muted texttime" >10:21<img src="b.png" class="img-fluid imgtext"></span></div>
+            </div>
+          </div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+          <div class="card text11 " style="background-color: #DCF8C6;border-radius: 15px;">
+            <div class = "card-body" >
+              <div class ="txtsize">build our profolio&nbsp  <span class="text-muted texttime" >10:21 <img src="b.png" class="img-fluid imgtext"></span></div>
+            </div>
+          </div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+        <div class="card text12 " style="background-color: #DCF8C6;border-radius: 15px;">
+             <div class = "card-body" >
+                <div class ="txtsize">and ensure us  &nbsp  <span class="text-muted texttime" >10:21 <img src="b.png" class="img-fluid imgtext" ></span></div>
+             </div>
+          </div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+          <div class="card text12a " style="background-color: #DCF8C6;border-radius: 15px;">
+              <div class = "card-body" >
+                 <div class ="txtsize">he best opportunities &nbsp <span class="text-muted texttime" >10:21 <img src="b.png" class="img-fluid imgtext"></span></div>
+              </div>
+          </div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+           <div class="card text13 " style="background-color: #DCF8C6;border-radius: 15px;">
+                <div class = "card-body" >
+                  <div class ="txtsize">in product companies &nbsp  <span class="text-muted texttime" >10:22<img src="b.png" class="img-fluid imgtext"></span></div>
+                </div>
+            </div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+          <div class="card text13a " style="background-color: #DCF8C6;border-radius: 15px;">
+              <div class = "card-body" >
+                <div class ="txtsize">based on our skills &nbsp<span class="text-muted texttime" >10:22 <img src="b.png" class="img-fluid imgtext"></span></div>
+             </div>
+          </div>
+      </div>
+      <div class="d-flex  justify-content-start ">
+          <div class="card text14 " style="border-radius: 15px;">
+            <div class = "card-body">
+              <div class ="txtsize">Good&nbsp <span class="text-muted texttime" >10:23</span></div>
+            </div>
+          </div>
+      </div>
+      <div class="d-flex  justify-content-start ">
+          <div class="card text15 " style="border-radius: 15px;">
+            <div class = "card-body">
+               <div class ="txtsize">Iam also going to opt for it.&nbsp <span class="text-muted texttime" >10:23</span></div>
+            </div>
+          </div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+          <div class="card text16 " style="background-color: #DCF8C6;border-radius: 15px;">
+            <div class = "card-body" >
+              <div class ="txtsize"><a  href="https://edwisor.com/">edwisor.com </a>&nbsp  <span class="text-muted texttime" >10:24 <img src="b.png" class="img-fluid imgtext" ></span></div>
+            </div>
+          </div>
+      </div>
+      <div class="d-flex  justify-content-start ">
+          <div class="card text17 " style="border-radius: 15px;">
+            <div class = "card-body">
+              <div class ="txtsize">Thnks bro&nbsp <span class="text-muted texttime">10:28</span></div>
+            </div>
+          </div>
+      </div>
+          <br><br><br><br>
+      <i class="far fa-smile smile" style="cursor: pointer;"></i>
+      <div class="float-left txtblock" style="">
+          <span style="padding:0px 10px;"><span class="" style="color: #128C7E;font-size: 25px">|</span><span class ="text-muted" >   Type a message</span><i class="fas fa-camera float-right camin" style=""></i>
+          </span>
+      </div>
+      <div class="float-right mic" style="">
+          <i class="fas fa-microphone"></i>
+      </div>
+    </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ </body>
+</html>
